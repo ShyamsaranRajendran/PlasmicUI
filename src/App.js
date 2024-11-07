@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Header from '../src/Components/FixedUI/Header/Header.jsx'
+import Main from '../src/Components/Containers/Main/Main.jsx'
+import Back from '../src/Components/Containers/BackImage/back.jsx'
+import Partner from '../src/Components/Containers/Partner/Partner.jsx'
+import Library from '../src/Components/Containers/library/library.jsx'
+import Exp from '../src/Components/Containers/Exp/Exp.jsx'
+import BlackBackGround from '../src/Components/Containers/BlackBackGround/BlackBackGround.jsx'
+import Integrate from '../src/Components/Containers/Integrate/Integrate.jsx'
+import BlueContainer from "../src/Components/Containers/BlueContainer/BlueContainer.jsx"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Main/>
+      <Back/>
+      <Partner />
+      <Library />
+      <Exp />
+      <Integrate/>
+      <BlackBackGround />
+      <BlueContainer/>
     </div>
   );
 }

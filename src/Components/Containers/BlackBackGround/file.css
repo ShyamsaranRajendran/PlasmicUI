@@ -1,0 +1,11 @@
+.BlackBackGround{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.BlackBackGround img{
+    width: 60%;
+    height: auto;
+}

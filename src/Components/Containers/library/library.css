@@ -1,0 +1,75 @@
+.library {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.btn-works {
+    background-color: white;
+    border-style: none;
+    border: solid 2px rgb(148, 198, 255);
+    color: rgb(173, 102, 240);
+    border-radius: 28px;
+    padding: 10px 28px;
+    height: auto;
+    width: auto;
+}
+
+.title-work-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 10px;
+}
+
+.wrk-line1 {
+    font-size: 70px;
+    font-weight: 600;
+    color: linear-gradient(to top, rgba(134, 54, 248, 0.5), transparent);
+    
+}
+
+.wrk-line2 {
+    font-size: 70px;
+    font-weight: 600;
+ background: linear-gradient(to right, #8636F8 2%, #F020B3 35%, #F8475E 67%, #FF9421 100%);
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    background-clip: text; /* For other browsers */
+    color: transparent;;
+}
+
+.wrk-desc{
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    line-height: auto;
+    padding-top: 2px;
+}
+
+.wrk-last, .buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+.wrk-last button {
+    background-color: white;
+    border-style: none;
+    border: solid 2px rgb(224, 235, 248);
+    color: rgb(173, 102, 240);
+    border-radius: 28px;
+    padding: 10px 28px;
+    height: auto;
+    width: auto;
+    transition: border-color 0.3s ease-in;
+}
+
+.wrk-last button:hover {
+    border-color: #8636F8;
+}
+

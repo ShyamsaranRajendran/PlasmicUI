@@ -1,0 +1,22 @@
+.backImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.backImage img{
+    width: 80%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .backImage img{
+    display: none;
+}
+}
+
+@media (max-width: 480px){
+    .backImage img{
+        display: none;
+    }
+}
